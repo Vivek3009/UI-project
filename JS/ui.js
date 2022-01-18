@@ -1,5 +1,7 @@
-const button = document.getElementById("button");
+const button = document.getElementById('button')
 
-button.addEventListener('change', () => {
-    console.log("Working fine");
-});
+function printSome(){
+       console.log("VIVEK");
+}
+
+button.addEventListener('click',printSome);
